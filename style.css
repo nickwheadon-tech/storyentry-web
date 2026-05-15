@@ -199,6 +199,15 @@ h1 {
 .legal-nav a:hover { color: var(--text); }
 .legal-nav span { color: var(--text-faint); margin: 0 6px; }
 .copyright { margin: 0; }
+.kat-is-cool {
+  flex-basis: 100%;
+  margin: 0 0 12px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
 
 /* ---- legal pages ---- */
 .legal {
