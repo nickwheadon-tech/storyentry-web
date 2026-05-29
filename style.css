@@ -86,8 +86,11 @@ body.legal-page {
   font-family: 'Pacifico', 'Brush Script MT', cursive;
   font-weight: 400;
   font-size: 56px;
-  line-height: 1;
+  line-height: 1.3;
   margin-bottom: 28px;
+  /* Pacifico has deep descenders; with background-clip:text the gradient
+     paint box must extend below the baseline or the 'y' tails get clipped. */
+  padding-bottom: 0.22em;
   text-decoration: none;
   background: var(--grad-cta);
   -webkit-background-clip: text;
